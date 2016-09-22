@@ -27,6 +27,5 @@ public void writeCounter()
 {
   if (counter < maxSize) counter++; 
   fill(5, 5, 5);
-  textSize(20);
-  text( counter*100/maxSize + "%", width/2, 35);
+  text( counter + "...", width/2, 15);
 }
