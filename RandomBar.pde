@@ -1,3 +1,5 @@
+// Main module
+
 int x = 0;
 int maxSize = 600;
 int counter = 0;
@@ -26,10 +28,3 @@ public void  incrementRect()
   }
   rect(20, 17, x, 20);
 } 
-public void writeCounter()
-{
-  if (counter < maxSize) counter++; 
-  fill(5, 5, 5);
-  textSize(20);
-  text( counter*100/maxSize + "%", width/2, 35);
-}
