@@ -21,7 +21,10 @@ public void  incrementRect()
     x++;
     fill(random(255), random(255), random(255));
   }
-  rect(20, 20, x, 20);
+  else { 
+      fill(255, 255, 255);
+  }
+  rect(20, 17, x, 20);
 } 
 public void writeCounter()
 {
